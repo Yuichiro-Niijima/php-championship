@@ -1,0 +1,370 @@
+
+*{
+margin:0;
+padding:0;
+}
+
+header{
+    width: 100%;
+    height: 65px;
+    background-color: rgb(39, 36, 36);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main{
+  
+    color: white;
+    background: #090000;
+}
+
+
+
+form{
+    
+    height: 30px; 
+    
+
+}
+
+.student_search{
+    padding-top: 20px;
+}
+
+.infoBox{
+    display: none;
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+}
+
+.inputBox{
+    height: 30px;
+    margin: auto;
+    width: 200px;
+    
+}
+
+.prf_box{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* display: none; */
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    text-align:center;
+    list-style: none;
+    
+}
+
+.info > li{
+    margin: 20px 60px 30px  ;
+ 
+}
+
+td{
+    text-align: left;
+}
+
+.searchBooks{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+
+
+.li_title{
+    width: 500px;
+    text-align: left;
+    margin: auto;
+
+}
+
+.abook{
+    margin-left: 200px;
+    height: 200px;
+    width: 150px;
+}
+
+.prf_box_right ,.prf_box_left, .prf_box_center {
+    border-collapse: separate;
+    border-spacing: 40px 15px;
+}
+
+.kadai{
+    margin-bottom: 20px;
+}
+
+
+/* 出席 */
+.attendance{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+/* 勉強状態ボタン */
+
+.now{
+    display: flex;
+    justify-content: center;
+    /* display: none; */
+  
+    }
+
+/* .nowBox{
+
+} */
+
+.book{
+    
+    height: 100vh;
+    display: none;
+    text-align: center;
+    margin: auto;
+    
+}
+
+/* .bookshelf{
+    border-bottom: medium solid white;
+} */
+
+.bookshelfBox{
+    border-collapse:collapse;
+}
+
+tr {
+    border-bottom: 20px solid black;
+    width: 300px;
+    height: 50px;
+}
+
+
+
+dl{
+    height: 40px;
+    line-height: 40px;
+}
+
+dt{
+    
+    float: left ;
+    
+    clear: left ;
+    margin-right: 0.5em ;
+    width: 15px ;
+}
+
+dd{
+    float: left ;
+    margin-left: 1em ;
+    /* width: 120px; */
+}
+
+.name {
+    width: 330px;
+    line-height: 50px;
+}
+
+.switch3 {
+    width: 60px;
+}
+
+dd > button{
+    margin-right: 20px;
+    font-size: 30px;
+    border-radius: 15px;
+    border: none;
+    padding: 6px;
+    outline: none;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.541);
+    font-family: 'Yellowtail', cursive;
+   
+}
+
+.button_place{
+    /* font-family: "Museo";
+    color: #fff;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de; */
+     color: tomato;
+  --color1: orangered;
+  --color2: firebrick;
+  --color3: maroon;
+  --color4: darkred;
+  font-family: 'Yellowtail', cursive;
+    --interval: 1s;
+  display: block;
+  text-shadow: 
+    0 0 10px var(--color1),
+    0 0 20px var(--color2),
+    0 0 40px var(--color3),
+    0 0 80px var(--color4);
+  will-change: filter, color;
+  filter: saturate(60%);
+  animation: flicker steps(100) var(--interval) 1s infinite;
+  font-size: 30px;
+}
+
+.id ,.name{
+            color: azure;
+    --color1: azure;
+    --color2: aqua;
+    --color3: dodgerblue;
+    --color4: blue;
+
+        --interval: 1s;
+    display: block;
+    text-shadow: 
+        0 0 10px var(--color1),
+        0 0 20px var(--color2),
+        0 0 40px var(--color3),
+        0 0 80px var(--color4);
+    will-change: filter, color;
+    filter: saturate(60%);
+    animation: flicker steps(100) var(--interval) 1s infinite;
+
+    
+    font-size: 28px;
+    /* color: rgba(255, 255, 255, 0.541); */
+    font-family: 'Sriracha', cursive;
+
+}
+
+/* .id_name {
+        color: azure;
+    --color1: azure;
+    --color2: aqua;
+    --color3: dodgerblue;
+    --color4: blue;
+
+        --interval: 1s;
+    display: block;
+    text-shadow: 
+        0 0 10px var(--color1),
+        0 0 20px var(--color2),
+        0 0 40px var(--color3),
+        0 0 80px var(--color4);
+    will-change: filter, color;
+    filter: saturate(60%);
+    animation: flicker steps(100) var(--interval) 1s infinite;
+} */
+
+
+
+.nav{
+      color: lightyellow;
+  --color1: yellow;
+  --color2: lime;
+  --color3: green;
+  --color4: mediumblue;
+  font-family: 'Kumar One Outline', cursive;
+  font-size: 30px;
+
+  --interval: 1s;
+  display: block;
+  text-shadow: 
+    0 0 10px var(--color1),
+    0 0 20px var(--color2),
+    0 0 40px var(--color3),
+    0 0 80px var(--color4);
+  will-change: filter, color;
+  filter: saturate(60%);
+  animation: flicker steps(100) var(--interval) 1s infinite;
+  margin-right: 60px;
+}
+
+@keyframes flicker {
+  50% {
+    color: white;
+    filter: saturate(200%) hue-rotate(20deg);
+  }
+}
+
+
+
+.switch3__label {
+	width: 37px;
+	position: relative;
+	display: inline-block;
+	padding-top: 3px;
+}
+.switch3__content {
+	display: block;
+  cursor: pointer;
+  position: relative;
+  border-radius: 7px;
+  height: 14px;
+  background-color: rgba(34,31,31,.26);
+  -webkit-transition: all .1s .4s;
+	   -moz-transition: all .1s .4s;
+	    -ms-transition: all .1s .4s;
+	     -o-transition: all .1s .4s;
+	        transition: all .1s .4s;
+	overflow: hidden;
+}
+ 
+.switch3__content:after {
+	content: "";
+	display: block;
+	position: absolute;
+	
+	width: 0;
+	height: 100%;
+	top: 0;
+	left: 0;
+	
+	border-radius: 7px;
+	-webkit-transition: all .5s;
+	   -moz-transition: all .5s;
+	    -ms-transition: all .5s;
+	     -o-transition: all .5s;
+	        transition: all .5s;
+}
+.switch3__input {
+	display: none;
+}
+.switch3__circle {
+	display: block;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	-webkit-border-radius: 10px;
+	        border-radius: 10px;
+	background-color: #F1F1F1;
+	-webkit-transition: all .5s;
+	   -moz-transition: all .5s;
+	    -ms-transition: all .5s;
+	     -o-transition: all .5s;
+	        transition: all .5s;
+	/* -webkit-box-shadow: 0 2px 2px #ccc;
+	        box-shadow: 0 2px 2px #ccc; */
+}
+.switch3__input:checked ~ .switch3__circle {
+	left: 18px;
+	background-color: #009688;
+}
+.switch3__input:checked ~ .switch3__content {
+ 
+	border-color: transparent;
+	-webkit-transition: all 0s;
+	   -moz-transition: all 0s;
+	    -ms-transition: all 0s;
+	     -o-transition: all 0s;
+	        transition: all 0s;
+}
+ 
+.switch3__input:checked ~ .switch3__content:after {
+	background-color: rgba(0,150,136,.5);
+	width: 100%;
+}

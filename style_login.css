@@ -1,0 +1,130 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    height: 100vh;
+    /* background: linear-gradient(-135deg, #2193b0, #6dd5ed) fixed; */
+    /* background: linear-gradient(-135deg, #9796f0, #fbc7d4) fixed; */
+    background-color: black;
+}
+
+h1,h2{
+    margin: auto;
+    color: white;
+}
+
+.reload{
+    margin-right: -30px;
+}
+
+img#captcha {
+    margin-top: 20px;
+}
+
+
+
+fieldset{
+    border-style: none;
+}
+
+.main{
+    margin: auto;
+    display: table-cell;
+    width: 600px;
+    height: 600px;
+    vertical-align: middle;
+    background-color: #332f2f77;
+    border-radius: 15px;
+}
+
+.main_content{
+    margin: auto;
+    text-align: center;
+}
+
+p{
+    color: gray;
+    font-size: 20px;
+}
+
+
+input[type="text"],
+input[type="password"],
+select {
+    outline: none;
+}
+
+
+input[type="text"],
+input[type="password"]{
+    padding-left: 20px;
+    font-size: 15px;
+    color: rgba(29, 28, 28, 0.795);
+}
+
+
+input{
+    width: 400px;
+    height: 35px;
+    border-radius: 15px;
+    border-style: none;
+
+}
+
+.sendBox{
+    margin-top: 60px;
+}
+
+#send{
+    /* background-image: linear-gradient(45deg, #1fddff 15%, #66ff00 100%);  */
+    width: 180px;
+    height: 40px;
+    font-size: 40px;
+    border-radius: 15px;
+    border-style: none;
+    background-color: transparent;
+    /* color: white; */
+}
+
+h1 {
+  --interval: 1s;
+  display: block;
+  text-shadow: 
+    0 0 10px var(--color1),
+    0 0 20px var(--color2),
+    0 0 40px var(--color3),
+    0 0 80px var(--color4);
+  will-change: filter, color;
+  filter: saturate(60%);
+  animation: flicker steps(100) var(--interval) 1s infinite;
+
+    color: yellow;
+  --color1: yellow;
+  --color2: lime;
+  --color3: green;
+  --color4: darkgreen;
+  font-size: 60px;
+  
+  font-family: 'Monoton', cursive;
+}
+
+@keyframes flicker {
+  50% {
+    color: white;
+    filter: saturate(200%) hue-rotate(20deg);
+  }
+}
+
+.neon {
+  position: relative;
+  display: inline-block;
+  color: transparent;
+  -webkit-text-stroke: 1.5px #0f0;
+  text-shadow: 0 0 50px rgba(0,255,0,.3);
+}
+.neon span {
+  position: absolute;
+  top: 4%;
+  left: 8%;
+  opacity: .3;
+}
